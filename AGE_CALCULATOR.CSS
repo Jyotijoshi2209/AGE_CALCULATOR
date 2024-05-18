@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background: url(https://img.freepik.com/free-photo/calculator-colorful-paper-clips_23-2148475323.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    margin-left: 100px;
+}
+
+.calculator {
+    font-weight: 50;
+
+    font-size: small;
+    text-align: center;
+    width: 500px;
+    padding: 5px;
+    height: 100px;
+}
+
+.whole {
+    text-align: center;
+    color: #222;
+    width: 600px;
+    border-radius: 5px;
+    padding: 2px;
+    height: 200px;
+    margin-top: 300px;
+    margin-left: 650px;
+    background-color: rgb(131, 131, 131);
+}
+
+.input-box {
+    background: linear-gradient(135deg, #eaf09f, #ebadca);
+    width: 400px;
+    padding: 5px;
+    height: 100px;
+    margin-left: 90px;
+    /* margin-top:1px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input-box input {
+    margin-top: 29px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: pink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.currAge {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 730px;
+    margin-top: 50px;
+}
